@@ -1,7 +1,7 @@
 import axios from "axios"
 
 export const api = axios.create({
-    baseURL: "https://backend-zoomies.onrender.com"
+    baseURL: "https://backend-giolaser.onrender.com"
 })
 
 interface propsFormData {

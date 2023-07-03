@@ -1,4 +1,4 @@
-import { FormEvent, ChangeEvent, useState } from "react";
+import { useRef, FormEvent, ChangeEvent, useState } from "react";
 import { enviarEmail } from "../../../api/api";
 import { Button } from "@mui/material";
 import SendIcon from "@mui/icons-material/Send";
@@ -7,6 +7,9 @@ interface FormData {
   nome: string;
   telefone: string;
   email: string;
+  mensagem: string;
+  propostaFile: File | null;
+  propostaName: string;
 }
 
 export const Formulario = () => {
@@ -14,9 +17,12 @@ export const Formulario = () => {
     nome: "",
     telefone: "",
     email: "",
+    mensagem: "",
+    propostaFile: null,
+    propostaName: ""
   });
 
-  // const propostaFileRef = useRef<HTMLInputElement | null>(null);
+  const propostaFileRef = useRef<HTMLInputElement | null>(null);
 
   const handleChange = (e: ChangeEvent<HTMLInputElement>) => {
     const { id, value } = e.target;
@@ -26,7 +32,7 @@ export const Formulario = () => {
     }));
   };
 
-  /* const handleFileUpload = () => {
+  const handleFileUpload = () => {
     const file = propostaFileRef.current?.files?.[0];
     if (file) {
       const reader = new FileReader();
@@ -40,7 +46,7 @@ export const Formulario = () => {
       };
       reader.readAsDataURL(file);
     }
-  };*/
+  };
 
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -63,6 +69,15 @@ export const Formulario = () => {
         className="mb-5 h-[50px] md:w-[600px] rounded text-black px-2"
       />
 
+      <label htmlFor="email">Email:</label>
+      <input
+        type="text"
+        id="email"
+        name="email"
+        onChange={handleChange}
+        className="mb-5 h-[50px] md:w-[600px] rounded text-black px-2"
+      />
+
       <label htmlFor="telefone">Telefone:</label>
       <input
         type="text"
@@ -72,13 +87,23 @@ export const Formulario = () => {
         className="mb-5 h-[50px] md:w-[600px] rounded text-black px-2"
       />
 
-      <label htmlFor="email">Email:</label>
+      <label htmlFor="mensagem">Mensagem:</label>
       <input
+        id="mensagem"
         type="text"
-        id="email"
-        name="email"
+        name="mensagem"
         onChange={handleChange}
         className="mb-5 h-[50px] md:w-[600px] rounded text-black px-2"
+      />
+
+      <label htmlFor="proposta">Proposta:</label>
+      <input
+        id="proposta"
+        type="file"
+        name="proposta"
+        ref={propostaFileRef}
+        onChange={handleFileUpload}
+        className="mb-5"
       />
 
       <Button
