@@ -72,3 +72,10 @@ html{
 ul li{
   list-style: disc;
 }
+
+
+.card:hover .imgCard{
+  transition: all;
+  transition-duration: 0.5s;
+  scale: 1.1;
+}

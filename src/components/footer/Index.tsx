@@ -5,7 +5,7 @@ import YouTubeIcon from '@mui/icons-material/YouTube';
 
 export default function Footer() {
     return(
-        <footer className="w-full py-5 flex flex-col items-center gap-3 lg:flex-row justify-center lg:gap-20 text-white bg-[#753999] ">
+        <footer className="w-full py-5 flex flex-col items-center gap-3 lg:flex-row justify-center lg:gap-20 text-white bg-[#ca4ab0] ">
             <div className='flex gap-2 justify-center items-center'>
                 <a href="https://www.facebook.com/Dra. Elisângelabr" target='_blank'> <FacebookIcon className='fill-white'/> </a>
                 <a href="https://www.instagram.com/zoomiesbr/" target='_blank'> <InstagramIcon className='fill-white'/> </a>
