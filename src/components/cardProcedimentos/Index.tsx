@@ -20,7 +20,7 @@ export default function CardProcedimentos( {image, title, text}:PropsCardCompone
                 height= '120px'
                 image={image}
                 alt="green iguana"
-                className='imgCard'
+                className='imgCard h-[330px] md:h-[340px] lg:h-[345px] rounded'
             />
             <CardContent>
                 <Typography className='font-semibold text-3xl text-[#753999] text-center mt-2 mb-3'>

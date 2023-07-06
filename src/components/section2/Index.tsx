@@ -70,8 +70,8 @@ export default function Section2() {
     return (
         <section className="py-10 w-full min-h-[50vh] lg:min-h-screen flex flex-col  items-center max-w-screen text-white bg-gradient-to-b  from-[#610061] from-70% via-[#a528ad] via-80% to-[#ca4ab0] to-90% ">
 
-            <div className="w-full flex flex-col items-center gap-10 mb-5 md:mb-12 p-5">
-                <h2 className="text-[38px] md:text-5xl font-bold">Conheça a GiOlasser</h2>
+            <div className="w-full flex flex-col items-center gap-10 md:mb-12 p-5">
+                <h2 className="text-3xl text-[32px] md:text-5xl font-bold">Conheça a GiOlasser</h2>
                 <div className="mb-10 w-full lg:min-h-[450px] flex justify-center items-center video ">
                     <iframe className="w-full lg:w-[77.9%] h-[200px] md:h-[350px] lg:h-[420px] rounded" src="https://www.youtube.com/embed/T8l3ZIp7NpA" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                 </div>
@@ -82,7 +82,7 @@ export default function Section2() {
                 <img src={fundo} alt="" className="hidden xl:block" />
 
                 <div className="flex flex-col gap-7">
-                    <h2 className="max-w-[600px] text-[32px] md:text-4xl font-bold text-center">A GiOlaser é referência em depilação, estética e beleza</h2>
+                    <h2 className="max-w-[600px] text-3xl md:text-4xl font-bold text-center">A GiOlaser é referência em depilação, estética e beleza</h2>
                     <span className="max-w-[600px] text-[26px] md:text-2xl font-semibold text-center">Agenda agora sua avaliiação</span>
                     <Formulario />
                 </div>
