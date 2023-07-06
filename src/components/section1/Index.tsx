@@ -14,7 +14,7 @@ export default function Section1() {
                         <img src={logo} alt="" className='mb-5'/>
                         <span className='w-full text-[15.5px] lg:text-[16px] xl:text-[20px] font-normal text-center  text-white border-[2px] rounded-xl'>A GiOlaser é referência em depilação, estética e beleza</span>
                     </div>
-                    <h2 className='mt-4 font-semibold text-white text-center md:text-start mb-10 md:text-[28px]'>Melhorando a vida dos alérgicos e ajudando famílias no cuidado de suas crianças de forma prática.</h2>
+                    <h2 className='mt-4 font-semibold text-white text-center md:text-start mb-10 md:text-[28px]'>4.	Valorizamos o que você tem de mais bonito. Conheça o tratamento ideal para você.</h2>
                     <Botao>
                         Chamar no WhatsApp
                     </Botao>

@@ -31,7 +31,7 @@ export default function Section2() {
         {
             image:modeloLaser,
             title:"Depilação a Laser",
-            text:"O método GiO de depilação retira os pelos indesejados utilizando as melhores técnicas do mercado com máxima eficiência tecnologia e segurança."
+            text:"O método GIO de depilação retira os pelos indesejados, utilizando as melhores técnicas do mercado, com máxima eficiência, tecnologia e segurança."
         },
 
         {
@@ -83,7 +83,7 @@ export default function Section2() {
 
                 <div className="flex flex-col gap-7">
                     <h2 className="max-w-[600px] text-3xl md:text-4xl font-bold text-center">A GiOlaser é referência em depilação, estética e beleza</h2>
-                    <span className="max-w-[600px] text-[26px] md:text-2xl font-semibold text-center">Agenda agora sua avaliiação</span>
+                    <span className="max-w-[600px] text-[26px] md:text-2xl font-semibold text-center">Agende agora sua avaliiação</span>
                     <Formulario />
                 </div>
             </div>
@@ -106,7 +106,7 @@ export default function Section2() {
 
             {/* CARD TRATAMENTO */}
             <div className="w-full p-5 md:p-0 flex flex-col items-center ">
-                <h2 className="w-full md:w-[80%] max-w-[1350px] text-2xl xl:text-[38px] md:text-4xl font-bold text-center">A GiOlaser nasceu do propósito de promover saúde e beleza para todas as pessoas. Acreditamos que o bem-estar vem de dentro para fora…</h2>
+                <h2 className="w-full md:w-[80%] max-w-[1350px] text-2xl xl:text-[38px] md:text-4xl font-bold text-center">A GiOlaser nasceu do propósito de promover saúde e beleza para todas as pessoas. Acreditamos que o bem-estar vem de dentro para fora.</h2>
                 <h3 className="w-full my-12 text-2xl xl:text-[36px] md:text-3xl font-semibold text-center">
                     Conheça os pilares da GiOlaser:
                 </h3>
@@ -121,7 +121,7 @@ export default function Section2() {
                     )}
                 </div>
                 <p className="my-10 max-w-[800px] text-[26px] md:text-2xl font-semibold text-center">
-                    Em mais de 300 clínicas espalhadas pelo Brasil, as clínicas GiOlaser oferecem uma variedade de tratamentos faciais e corporais com preços acessíveis e condições de pagamento facilitadas. 
+                Em mais de 300 clínicas espalhadas pelo Brasil, a GiOlaser oferece uma variedade de tratamentos faciais e corporais com preços acessíveis e condições de pagamento facilitadas.  
                 </p>
 
                 <Botao>

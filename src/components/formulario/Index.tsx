@@ -51,7 +51,7 @@ export const Formulario = () => {
         className="mb-5 h-[50px] md:w-[600px] rounded text-black px-2"
       />
 
-      <label htmlFor="email">Email:</label>
+      <label htmlFor="email">E-mail:</label>
       <input
         type="text"
         id="email"
