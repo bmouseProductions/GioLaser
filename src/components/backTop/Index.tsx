@@ -26,7 +26,7 @@ export default function BackTop(){
 
     return(
       <div id='backTop' className='fixed right-3 bottom-5 z-50'>
-        <a href="#"  className='flex justify-center items-center rounded-full p-1 bg-[#028986] border border-[#917bad] shadow-[0px_0px_5px_#26074f]'>
+        <a href="#"  className='flex justify-center items-center rounded-full p-1 bg-[#670468] border border-[#917bad] shadow-[0px_0px_5px_#26074f]'>
           <ArrowUpwardIcon className='text-[30px] fill-white'/>
         </a>
       </div>

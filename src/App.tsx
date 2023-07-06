@@ -11,7 +11,6 @@ function App() {
       <main>
         <Section1 />
         <Section2 />
-        <Whatsapp />
         <BackTop />
       </main>
 
