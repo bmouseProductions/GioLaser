@@ -78,7 +78,7 @@ export default function Section2() {
             </div>
 
             {/* FORM */}
-            <div className="flex items-center px-5 mb-20" data-aos="flip-right" data-aos-duration="1500">
+            <div className="flex items-center px-5 mb-20" data-aos="flip-right" data-aos-duration="1500" id="form">
                 <img src={fundo} alt="" className="hidden xl:block" />
 
                 <div className="flex flex-col gap-7">
