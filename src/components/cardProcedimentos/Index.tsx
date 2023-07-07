@@ -9,11 +9,13 @@ interface PropsCardComponent{
     image: string;
     title: string;
     text: string;
+    aosAnimation:string;
+    aosDuration:string;
 }
 
-export default function CardProcedimentos( {image, title, text}:PropsCardComponent ) {
+export default function CardProcedimentos( {image, title, text, aosAnimation, aosDuration}:PropsCardComponent ) {
   return (
-    <Card className='bg-white bg-opacity-90 w-full lg:w-[30%] max-w-[400px] p-5 card'>
+    <Card className='bg-white bg-opacity-90 w-full lg:w-[30%] max-w-[400px] p-5 card' data-aos={aosAnimation} data-aos-duration={aosDuration}>
         <CardActionArea className=''>
             <CardMedia
                 component="img"
