@@ -16,7 +16,7 @@ export default function Section1() {
                     </div>
                     <h2 className='mt-4 font-semibold text-white text-center md:text-start mb-10 md:text-[28px]'>Valorizamos o que você tem de mais bonito. Conheça o tratamento ideal para você.</h2>
                     <Botao>
-                        Chamar no WhatsApp
+                        Agende sua avaliação
                     </Botao>
                 </div>
             </div>
