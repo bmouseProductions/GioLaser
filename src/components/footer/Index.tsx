@@ -15,7 +15,7 @@ export default function Footer() {
 
             <p>Copyright Ⓒ 2023 Dra. Elisângela.</p>
 
-            <a href="https://www.bmouseproductions.com/" target="_blank" rel="noopener noreferrer"> Desenvolvido por <strong>BMOUSE PPRODUCTIONS</strong> </a>
+            <a href="https://www.bmouseproductions.com/" target="_blank" rel="noopener noreferrer"> Desenvolvido por <strong>BMOUSE PRODUCTIONS</strong> </a>
         </footer>
     )
 }
