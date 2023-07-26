@@ -9,11 +9,13 @@ interface PropsCardPilares{
     image: string;
     title: string;
     text: string;
+    aosAnimation:string;
+    aosDuration:string;
 }
 
-export default function CardPilares( {image, title, text}:PropsCardPilares ) {
+export default function CardPilares( {image, title, text, aosAnimation, aosDuration}:PropsCardPilares ) {
   return (
-    <Card className=' w-full max-w-[280px] p-5 card border-2 border-white bg-gradient-to-t  from-[#610061]  via-[#a528ad]  to-[#ff01cc]   rounded-2xl'>
+    <Card className=' w-full max-w-[280px] p-5 card border-2 border-white bg-gradient-to-t  from-[#610061]  via-[#a528ad]  to-[#ff01cc] rounded-2xl' data-aos={aosAnimation} data-aos-duration={aosDuration}>
         <CardActionArea className=''>
             <CardMedia
                 component="img"
